@@ -49,6 +49,7 @@
       letter-spacing: 0.5px;
     }
     p { font-size: 16px; line-height: 1.7; color: #aaa; }
+    p + p { margin-top: 14px; }
     a { color: #f5c842; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .divider { border: none; border-top: 1px solid #1e1e1e; margin: 48px 0 0; }
@@ -62,22 +63,30 @@
       <div class="logo">Deadline</div>
     </div>
     <h1>Privacy Policy</h1>
-    <div class="date">Last updated: October 3, 2026</div>
+    <div class="date">Last updated: October 9, 2026</div>
 
     <h2>Overview</h2>
-    <p>Deadline is a personal productivity app designed to help you manage your own device usage. We take your privacy seriously. This policy explains what data Deadline does and does not collect.</p>
+    <p>Deadline is a personal productivity app designed to help you manage your own device usage. It has two features: Focus, which locks your chosen apps until you follow through on a commitment, and TapLatch, which locks and unlocks your apps when you tap a physical NFC card. We take your privacy seriously. This policy explains what data Deadline does and does not collect.</p>
 
     <h2>Data We Collect</h2>
-    <p>Deadline does not collect, transmit, or share any personal data. All information you enter into the app, including your commitments, deadlines, focus sessions, and settings, is stored locally on your device only.</p>
+    <p>Deadline does not collect, transmit, or share any personal data. All information you enter into the app, including your commitments, focus sessions, saved places, paired card, and settings, is stored locally on your device only. There is no account to create and no cloud sync, so there is no copy of your data on our systems and we have no access to any of it.</p>
 
     <h2>Location Data</h2>
     <p>Deadline may request access to your location to enable geofencing features, such as locking apps when you arrive at or leave a set location. Your location is processed entirely on your device and is never transmitted to us or any third party.</p>
+    <p>For Focus walk commitments, your location is used live and only in the moment: the app measures the distance between your current position and the point you started from in order to decide whether the walk is complete. That measurement happens on your device as each position update arrives. Your position is not written down, no route or location history is recorded, and nothing is transmitted anywhere.</p>
+    <p>Places you choose to save, such as a gym or a library, are stored on your device so the app knows which locations to watch for. They are never uploaded.</p>
+
+    <h2>NFC Card Data</h2>
+    <p>If you use TapLatch, your iPhone reads your NFC card when you hold the card against the phone. The card's identifier is read on your device, matched against the card you paired during setup, and used only to apply or release your app locks. It is never transmitted off your device and is not stored anywhere outside your device. We do not maintain any record of which cards exist or which card belongs to whom.</p>
+
+    <h2>Screen Time and Family Controls Data</h2>
+    <p>Deadline uses Apple's Family Controls and Screen Time frameworks to apply and release your app locks. With your permission, these frameworks let the app shield the apps you selected and lift that shield when a commitment is met or a card is tapped. This information is used for that purpose only, it stays on your device, and it is never transmitted to us or any third party. The apps you select are represented to Deadline as opaque tokens provided by the system, so the app cannot read which apps you chose.</p>
 
     <h2>Health Data</h2>
     <p>If you use step-tracking features, Deadline may request access to HealthKit data. This data is read on your device only and is never stored externally or shared with anyone.</p>
 
     <h2>Third Party Services</h2>
-    <p>Deadline does not use any third-party analytics, advertising, or tracking services.</p>
+    <p>Deadline does not use any third-party analytics, advertising, or tracking services, and does not include any third-party SDKs.</p>
 
     <h2>Children</h2>
     <p>Deadline is not directed at children under the age of 13 and we do not knowingly collect any information from children.</p>
